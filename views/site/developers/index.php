@@ -9,7 +9,7 @@ use yii\helpers\Html;
 </p>
 
 <p>
-    If you like to make <?=Yii::$app->params['name'];?> better, then join us. Right now you can <b><?= Html::a('help us to translate', "#"); ?></b> <?=Yii::$app->params['name'];?> into your native language, or fill the encyclopedia with the necessary content. To create new objects, you can use our RESTful API, which is available by the url <?= Html::a(Yii::$app->params['protocol']."://api.".Yii::$app->params['domain'], Yii::$app->params['protocol']."://api.".Yii::$app->params['domain']);?>. If you want to participate in <?=Yii::$app->params['name'];?> development, please <?= Html::a('contact us', ['site/contact']); ?>.
+    If you like to make <?=Yii::$app->params['name'];?> better, then join us. Right now you can <b><?= Html::a('help us to translate', "https://github.com/tonykor/factopedia-localization"); ?></b> <?=Yii::$app->params['name'];?> into your native language, or fill the encyclopedia with the necessary content. To create new objects, you can use our RESTful API, which is available by the url <?= Html::a(Yii::$app->params['protocol']."://api.".Yii::$app->params['domain'], Yii::$app->params['protocol']."://api.".Yii::$app->params['domain']);?>. If you want to participate in <?=Yii::$app->params['name'];?> development, please <?= Html::a('contact us', ['site/contact']); ?>.
 </p>
 
 

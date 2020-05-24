@@ -9,7 +9,7 @@ use yii\helpers\Html;
 </p>
 
 <p>
-    Если вы как и мы хотите сделать <?=Yii::$app->params['name'];?> лучше тогда присоединяйтесь к нам. Прямо сейчас вы можете <b><?= Html::a('помочь нам перевести', "#"); ?></b> <?=Yii::$app->params['name'];?> на ваш родной язык, или наполнить энциклопедию необходимым контентом. Для того что бы добавлять объекты в базу из вашего скрипта, используйте наше RESTful API, которое доступно по адресу <?= Html::a(Yii::$app->params['protocol']."://api.".Yii::$app->params['domain'], Yii::$app->params['protocol']."://api.".Yii::$app->params['domain']);?>. Если вы хотите участвовать в разработке <?=Yii::$app->params['name'];?>, пожалуйста <?= Html::a('свяжитесь с нами', ['site/contact']); ?>.
+    Если вы как и мы хотите сделать <?=Yii::$app->params['name'];?> лучше тогда присоединяйтесь к нам. Прямо сейчас вы можете <b><?= Html::a('помочь нам перевести', "https://github.com/tonykor/factopedia-localization"); ?></b> <?=Yii::$app->params['name'];?> на ваш родной язык, или наполнить энциклопедию необходимым контентом. Для того что бы добавлять объекты в базу из вашего скрипта, используйте наше RESTful API, которое доступно по адресу <?= Html::a(Yii::$app->params['protocol']."://api.".Yii::$app->params['domain'], Yii::$app->params['protocol']."://api.".Yii::$app->params['domain']);?>. Если вы хотите участвовать в разработке <?=Yii::$app->params['name'];?>, пожалуйста <?= Html::a('свяжитесь с нами', ['site/contact']); ?>.
 </p>
 
 
