@@ -36,7 +36,7 @@ use yii\helpers\Html;
             </ol>
         </ol>
     <li>API realization on different languages</li>
-        <ol>PHP <a href="#api-php">https://github.com/factopedia/api/php</a></ol>
+        <ol><a href="https://github.com/tonykor/factopedia-api-wrappers/blob/master/php/Api.php" target="_blank">PHP</a></ol>
 </ol>
 
 <h4 id="authorization">Authorization</h4>

@@ -7,10 +7,10 @@ return [
     
     // site/index
     
-    '{name} is a free, open database with classified information about all the objects around us. Where you can compare objects among each other. This database is created and moderated by the people like you are. Everyone can add or edit something, everyone can participate in database creation. You can {add} new object, or {create} a comparison right now!'
+    '{name} is a free, open database with classified information about different objects around us. Where you can compare objects among each other. This database is created and moderated by the people like you are. Everyone can add or edit something, everyone can participate in database creation. It\'s currently only {objectsCount} objects in this language version, {add} new object, or {create} a comparison right now!'
     =>
-    '{name} это бесплатная, открытая база данных с информацией обо всех объектах вокруг нас. Вы так же можете сравнивать объекты между собой получая необходимую информацию за считанные секунды. Эта база данных создаётся и поддерживается такими же людьми как и ты. Каждый может добавить или отредактировать что либо, каждый может участвовать в редактировании базы. Вы можете {add} новый объект или {create} сравнение прямо сейчас!',
-    'add' => 'добавить',
+    '{name} это бесплатная, открытая база данных с информацией о разных объектах вокруг нас. Где вы можете сравнивать объекты между собой. Эта база данных создаётся и поддерживается такими же людьми как и вы. Каждый может добавить или отредактировать что либо, каждый может участвовать в создании базы. На данный момент у нас всего {objectsCount} объектов в данной языковой версии, {add} новый объект или {create} сравнение прямо сейчас!',
+    'add' => 'добавьтe',
     'create' => 'создайте',
 
     //users/index
