@@ -126,10 +126,11 @@ Please read <a href="#general">general principles</a> of listing commands. This 
 name
 parentId
 lang
+property
 </code>
 </pre>
 
-This allows you to search objects by name and in certain categories.
+This allows you to search objects by name, in certain categories and by property value. `property` can be used only with `parentId`for searching objects in categories. It is an array where keys are property id, and the value is an miltidimentional array with filter options (see example below to make a correct filtering by properties values). By defaul objects sorted by name, but it's also possible to sort by object property, for example `sort=-67_object` this means that objects will be sorted in DESC order '-' minus sign in the beggining, by the property with id = '67' and type = 'object'
 
 Possible values for additional parameters
 
@@ -140,6 +141,7 @@ properties
 suggestedProperties
 parents
 children
+countChildren
 </code>
 </pre>
 
@@ -147,7 +149,7 @@ Usage example
 
 <pre class="code">
 <code>
-GET /objects?expand=properties,suggestedProperties,parents,children&sort=id&name=example&parentId=123&lang=en
+GET /objects?expand=properties,suggestedProperties,parents,children&sort=-67_object&name=example&parentId=123&lang=en&property[65][int][][>=]=1980&property[65][int][][<=]=1981&property[62][int][][%3D]=7&property[62][int][][%3D]=8
 </code>
 </pre>
 
